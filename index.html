@@ -48,7 +48,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Publicar</a>
             </div>
         </div>
         <div id="modal-img" class="modal">
@@ -56,14 +56,14 @@
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s6">
-                            <input id="input_text" type="text" data-length="10">
-                            <label for="input_text">Input text</label>
+                            <input id="input_im_txt" type="text" data-length="10">
+                            <label for="input_im_txt">Titulo</label>
                         </div>
                     </div>
                     <div class="file-field input-field">
                         <div class="btn">
                             <span>File</span>
-                            <input type="file">
+                            <input type="file" id="input_img">
                         </div>
                         <div class="file-path-wrapper">
                             <input class="file-path validate" type="text">
@@ -72,23 +72,23 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Publicar</a>
             </div>
         </div>
         <div id="modal-event" class="modal">
             <div class="modal-content">
                   <div class="row">
                     <div class="input-field col s6">
-                        <input value="" id="first_name2" type="text" class="validate">
-                        <label class="active" for="first_name2">First Name</label>
+                        <input value="" id="event1" type="text" class="validate">
+                        <label class="active" for="event1">Evento</label>
                     </div>
                 </div>
                 <div class="file-path-wrapper">
-                    <input class="datepicker " type="date">
+                    <input class="datepicker " id="event" type="date">
                 </div>
             </div>
             <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Publicar</a>
             </div>
         </div>
         <div id="modal-video" class="modal">
@@ -96,17 +96,20 @@
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s6">
-                            <input id="input_text" type="text" data-length="10">
-                            <label for="input_text">Input text</label>
+                            <input id="input_video" type="text" data-length="10">
+                            <label for="input_video">Titulo</label>
                         </div>
                     </div>
                     <div class="file-field input-field">
                         <div class="btn">
                             <span>File</span>
-                            <input type="file">
+                            <input type="file" id="input_vdo">
                         </div>
                         <div class="file-path-wrapper">
                             <input class="file-path validate" type="text">
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Publicar</a>
                         </div>
                     </div>
                 </form>
